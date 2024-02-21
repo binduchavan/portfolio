@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-image: linear-gradient(45deg,#1B3F57,#25577A);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.main .nav{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .nav .logo{
+    width: 200px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -3%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color: blue;
+}
+
+.main .info{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.main .info h3{
+    font-size: 30px;
+    letter-spacing: 0.04cm;
+}
+
+.main .info h2{
+    font-size: 50px;
+    letter-spacing: 0.06cm;
+
+}
+
+.main .info h4{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main .info span{
+    color: orange;
+}
+
+.main .info a{
+    text-decoration: none;
+    color: #ffff;
+    background: #000;
+    margin: 30px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.main .info a:hover{
+    background: rgb(60,170,200);
+}
+
+.main .icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.main .icons ion-icon{
+    margin-left: 5%;
+    color: #000;
+    margin-right: -2%;
+    font-size: 20px;
+}
+
+.main .icons ion-icon:hover{
+    color: blue;
+}
+
+.main .intro{
+    margin-left:6%;
+    margin-top:1%;
+    width:25%;
+    height: 70%;
+    position : absolute;
+    right:100px;
+    bottom:0;
+}
+
+.main .intro button{
+    margin-left:6%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,#1B3F57,#25577A);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.main .intro p{
+    text-decoration: none;
+    color: #000;
+    margin: 10px 0;
+    padding: 10px 18px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.div{
+    width: 100%;
+    background-image: linear-gradient(45deg,#1B3F57,#25577A);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    gap: 2cm;
+    flex-grow: 1;
+    padding: 0 40px;
+}
+
+.div .div1{
+    width: 20cm;
+    height: 15cm;
+    box-shadow: 5px 5px 25px #0000005f;
+    max-width: 22%;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.div .div2{
+    width: 20cm;
+    height: 15cm;
+    box-shadow: 5px 5px 25px #0000005f;
+    max-width: 22%;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.div .div2 span{
+    color: orange;
+}
+
+.div .div3{
+    width: 20cm;
+    height: 15cm;
+    box-shadow: 5px 5px 25px #0000005f;
+    max-width:22%;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size:16px;
+    text-align: left;
+}
+
+.div .div3 span{
+    color: orange;
+}
+
+.edu{
+    width: 100%;
+    background-image: linear-gradient(45deg,#1B3F57,#25577A);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    font-family: sans-serif;
+    justify-items: center;
+    display:block;
+    height: 100vh;
+    padding: 40px 40px;
+}
+
+.edu .div1, .div2, .div3{
+    top:5cm;
+    width: 100cm;
+    height: 3cm;
+    box-shadow: 5px 5px 25px #0000005f;
+    max-width: 45%;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.edu p span{ 
+    letter-spacing: .04cm;
+    font-weight: bold;
+    color: orange;
+}
+
+
+.project{
+    width: 100%;
+    background-image: linear-gradient(45deg,#1B3F57,#25577A);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    font-family: sans-serif;
+    justify-items: center;
+    display:block;
+    height: 100vh;
+    padding: 40px 40px;
+}
+
+.project .d1{
+    top:3cm;
+    width: 200cm;
+    height: 13cm;
+    box-shadow: 5px 5px 25px #0000005f;
+    max-width: 75%;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.project .d1 h3 span{ 
+    font-weight: bold;
+    color: orange;
+}
+
+.certificates{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(45deg,#1B3F57,#25577A);
+    overflow-x: scroll;
+    background-repeat: repeat;
+    background-position: relative;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    align-items:center;
+    justify-items:center;
+    gap:50px;
+}
+
+.certificates .c1, .c2, .c3, .c4, .c5{
+    width:700px;
+    height:500px;
+}
+
+.awards{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(45deg,#1B3F57,#25577A);
+    overflow-x: scroll;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    align-items:center;
+    justify-items:center;
+    gap:50px;
+}
+
+.awards .c1, .c2, .c3, .c4{
+    width:700px;
+    height:500px;
+}
